@@ -34,17 +34,17 @@ main () {
 }
 
 function showUsage {
-		echo ""
-		echo "ERROR: You must supply at less one argument"
-		echo ""
-		echo "Usage:   util [command] [option]"
-		echo ""
-		echo "Commands:"
-		echo ""
-		echo "	generate:			generate different files or directories:"
-		echo "		Options:"
-		echo "				script	[path]		Generate and empty script.sh with basics in the given directory"
-		echo "				project	[name]		Generate a directory with a new eclipse and several util subdirectories"
+		echo "";
+		echo "ERROR: You must supply at less one argument";
+		echo "";
+		echo "Usage:   util [command] [option]";
+		echo "";
+		echo "Commands:";
+		echo "";
+		echo "  generate:			generate different files or directories:";
+		echo "    Options:";
+		echo "        script	[path]		Generate and empty script.sh with basics in the given directory";
+		echo "        project	[name]		Generate a directory with a new eclipse and several util subdirectories";
 }
 
 function printScriptTemplate {
